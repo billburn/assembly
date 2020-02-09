@@ -20,3 +20,6 @@
     * (gdb) stepi
     * (gdb) disassemble
     * (gdb) info registers
+<kbd>
+![alt text](https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-00.png "stepi-00")
+</kbd>
