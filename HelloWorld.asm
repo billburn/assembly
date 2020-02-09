@@ -11,7 +11,7 @@ _start:
 	mov eax, 0x4
 	mov ebx, 0x1
 	mov ecx, message
-;	mov edx, 0xc not sure this works
+;	mov edx, 0xc  ;; this does work, but assigning a variable (mlen) to length is better
 	mov edx, mlen
 	int 0x80
 	
