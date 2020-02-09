@@ -10,6 +10,7 @@
 * At this point, you should be able disassemble the program and see register information
     * disassemble
     * info registers
+
 ![alt text](https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/screenshots/disassemble-01.png "disassemble")
 
 ![alt text](https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/screenshots/registers-01.png "registers")
