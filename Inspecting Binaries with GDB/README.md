@@ -7,14 +7,14 @@
 * Run the program
     * (gdb) run
 
-![alt text](https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/break-01.png "break _start")
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/break-01.png" /></kbd>
 * At this point, you should be able disassemble the program and see register information
     * (gdb) disassemble
     * (gdb) info registers
 
-![alt text](https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/disassemble-01.png "disassemble")
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/disassemble-01.png" /></kbd>
 
-![alt text](https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/registers-01.png "registers")
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/registers-01.png" /></kbd>
 
 * Using stepi, you can step through the program, and follow the values in each of the registers
     * (gdb) stepi
