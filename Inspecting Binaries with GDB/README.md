@@ -15,3 +15,8 @@
 ![alt text](https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/disassemble-01.png "disassemble")
 
 ![alt text](https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/registers-01.png "registers")
+
+* Using stepi, you can step through the program, and follow the values in each of the registers
+    * (gdb) stepi
+    * (gdb) disassemble
+    * (gdb) info registers
