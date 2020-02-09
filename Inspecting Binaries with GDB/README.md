@@ -21,7 +21,7 @@
     * (gdb) disassemble
     * (gdb) info registers
 
-** Step 0**
+__Step 0__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-00.png" /></kbd>
 
-** Step 1**
+__Step 1__
