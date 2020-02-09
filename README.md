@@ -19,3 +19,7 @@ This is my repository for assembly code, shellcode, and development of x86 tools
 * EDX => 3rd Argument
 * ESI => 4th Argument
 * EDI => 5th Argument
+
+### Using NASM and LD to compile and Link a program
+* nasm -f elf32 -o HelloWorld.o HelloWorld.asm
+* ld -o HelloWorld HelloWorld.o
