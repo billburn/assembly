@@ -1,5 +1,5 @@
 # Assembly
-This is my repository for assembly code, shellcode, and development of x86 tools
+This is my repository for assembly, shellcode, and development of x86 tools
 
 ### File Descriptors
 * fd 0 => stdin
