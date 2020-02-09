@@ -23,3 +23,5 @@
 
 ** Step 0**
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-00.png" /></kbd>
+
+** Step 1**
