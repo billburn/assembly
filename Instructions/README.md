@@ -5,5 +5,10 @@
     * buffer:       resb 64     ; reserve 64 bytes
     * wordvar:      resw 1      ; reserve 1 word
 
-* Test
-    * `<p>buffer:              resb 64           ; reserve 64 byes</p>`
+<style type="text/css">
+<!--
+ .tab { margin-left: 40px; }
+-->
+</style>
+
+*   <p class="tab">Example of a tab</p>
