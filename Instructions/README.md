@@ -3,9 +3,13 @@
 * Declaring uninitialized data
     * data is stored in the BSS segment
 
-<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/Virtual-Memory-Model-01.png" /></kbd>
+[NASM Manual](https://nasm.us/doc/nasmdoc3.html)
 
-Variable Name | Instruction | Full Command | Description
-------------- | ----------- | ------------ | -----------
- buffer       | resb 64     | buffer: resb 64 | ; reserves 64 bytes
- wordvar      | resw 1      | wordvar: resw 1 | ; reserves 1 word
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/Uninitialized-Data-01.png" /></kbd>
+
+### Instructions
+* resb => reserve byte
+* resw => reserve word
+* resq => array of 10 reals
+* resy => one ymm register
+* resz => 32 zmm registers
