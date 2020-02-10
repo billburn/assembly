@@ -6,5 +6,4 @@
     * wordvar:      resw 1      ; reserve 1 word
 
 * Test
-    * ` buffer:       resb 64     ; reserve 64 bytes`
-    * ` wordvar:      resw 1      ; reserve 1 word`
+    * <p>buffer:              resb 64           ; reserve 64 byes</pre>
