@@ -2,5 +2,5 @@
 
 * Declaring uninitialized data
     * data is stored in the BSS segment
-    * buffer: resb 64 ; reserve 64 bytes
-    * wordvar: resw 1  ; reserve 1 word
+    * buffer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resb 64 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; reserve 64 bytes
+    * wordvar:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resw 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; reserve 1 word
