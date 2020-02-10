@@ -1,7 +1,7 @@
 # Common Assembly Instructions
 
 * Declaring uninitialized data
-    * data is stored in the BSS segment
+    * Data is stored in the BSS segment
 
 [NASM Manual](https://nasm.us/doc/nasmdoc3.html)
 
