@@ -14,7 +14,7 @@
 * resy => one ymm register
 * resz => 32 zmm registers
 
-### Get Length of variable
+### Get length of variable
 * msglen equ $-variable-name
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/message-len-01.png" /></kbd>
