@@ -21,3 +21,7 @@
 ### Info Registers Command
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/info-registers-01.png" /></kbd>
+
+### Info variables Command
+
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/info-variables-01.png" /></kbd>
