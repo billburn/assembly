@@ -8,7 +8,7 @@
 ### Reading File Entrypoint in GDB
 * To identify the entry point address you can do this multiple ways
     * (GDB) info functions
-    * (GDB) shell readelf -h name-of-file
+    * (GDB) shell readelf -h <name-of-file>
 
 ### Readelf Command
 
