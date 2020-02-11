@@ -14,7 +14,7 @@ _start:
     mov edx, mlen
     int 0x80
 
-    exit the program gracefully
+    ; exit the program gracefully
     mov eax, 0x1
     mov ebx, 0x5
     int 0x80
