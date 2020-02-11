@@ -13,6 +13,7 @@
 * resq => array of 10 reals
 * resy => one ymm register
 * resz => 32 zmm registers
+* times => replicates a variable
 
 ### Get length of variable
 * msglen equ $-variable-name
