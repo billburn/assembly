@@ -31,3 +31,7 @@
 ### Info variables Command
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/info-variables-01.png" /></kbd>
+
+### Examine memory Command
+
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/examine-01.png" /></kbd>
