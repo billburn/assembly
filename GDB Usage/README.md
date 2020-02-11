@@ -1,9 +1,15 @@
 # GDB Usage
 
+[Visual GDB Reference](http://visualgdb.com/gdbreference/commands/x)
+
 ### General Command Usage
 * (GDB) break <value> => set's a break point at a location
 * (GDB) disassemble => disassembles a section of memory
 * (GDB) info registers => this list's the registers for a particular stack frame
+* (GDB) x/xb => examines memory at a location
+    * (GDB) x/ `[format]` `[address expression]`
+    * (GDB) x/xb => hex bytes
+    * (GDB) x/s => string
 
 ### Reading File Entrypoint in GDB
 * To identify the entry point address you can do this multiple ways
