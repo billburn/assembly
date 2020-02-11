@@ -16,6 +16,13 @@
     * (GDB) info functions
     * (GDB) shell readelf -h `name-of-file`
 
+### Figuring out the address of a variable
+* To identify the address of a variable, you can use the print command
+    * (GDB) info variables
+    * (GDB) print `&variable_name`
+    * (GDB) x/xb `address_value`
+    * (GDB) x/xb `address_value+1 byte`
+
 ### Readelf Command
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/readelf-01.png" /></kbd>
@@ -35,3 +42,7 @@
 ### Examine memory Command
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/examine-01.png" /></kbd>
+
+### Finding address offset and printing bytes
+
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/examine-02.png" /></kbd>
