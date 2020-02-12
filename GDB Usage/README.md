@@ -23,6 +23,19 @@
     * (GDB) x/xb `address_value`
     * (GDB) x/xb `address_value+1 byte`
 
+### Viewing Registers
+* There are mutiple ways that you can view a register as we have learned, but here are a few more
+    * print /x $eax
+    * display $eax
+
+### Defining a hook
+* When you want to run a sequence of commands and print all the values of that sequence, create a user-defined hook
+* [User-Defined Command Hooks](https://ftp.gnu.org/old-gnu/Manuals/gdb/html_node/gdb_189.html)
+    * (GDB) define hook-name
+    * (GDB) print $eax (or whatever instruction)
+    * (GDB) x/8xb &some-label
+    * (GDB) end 
+
 ### Readelf Command
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/readelf-01.png" /></kbd>
