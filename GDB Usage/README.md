@@ -59,3 +59,6 @@
 ### Finding address offset and printing bytes
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/examine-02.png" /></kbd>
+
+### Creating User-Defined Hook
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/define-hook-01.png" /></kbd>
