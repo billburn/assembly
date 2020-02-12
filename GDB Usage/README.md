@@ -10,6 +10,8 @@
     * (GDB) x/ `[format]` `[address expression]`
     * (GDB) x/xb => hex bytes
     * (GDB) x/s => string
+* (GDB) stepi => step one instruction exactly
+* (GDB) nexti => step one instruction, but proceed through subroutine calls
 
 ### Reading File Entrypoint in GDB
 * To identify the entry point address you can do this multiple ways
