@@ -14,6 +14,15 @@
 * resy => one ymm register
 * resz => 32 zmm registers
 * times => replicates a variable
+* mov => moves data between registers
+    * memory to register
+    * register to memory
+    * immediate data to register / memory
+* lea => load effective address (or pointer values)
+    * lea eax, `[label of variable]`
+* xchg => exchanges (swaps) the value
+    * xchg register, register
+    * xchg register, memory
 
 ### Get length of variable
 * msglen equ $-variable-name
