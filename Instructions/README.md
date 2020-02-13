@@ -22,6 +22,9 @@
 * xchg => exchanges (swaps) the value
     * xchg register, register
     * xchg register, memory
+* push => pushes a value onto the stack
+* pop => removes the topmost value from the stack
+    * note that the ESP register will auto-calcuate the register to always remain at the top of the stack
 
 ### Get length of variable
 * msglen equ $-variable-name
