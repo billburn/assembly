@@ -28,7 +28,9 @@
 ### Viewing Registers
 * There are mutiple ways that you can view a register as we have learned, but here are a few more
     * print /x $eax
-    * display $eax
+    * display/x $eax
+        * display does not require a define hook
+        * display will automatically print the results after each stop
 
 ### Defining a hook
 * When you want to run a sequence of commands and print all the values of that sequence, create a user-defined hook
