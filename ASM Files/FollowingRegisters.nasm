@@ -1,6 +1,6 @@
 ; FollowingRegisters.nasm
 ; Author: Bill Burn
-; test
+; TEST
 
 global _start
 
