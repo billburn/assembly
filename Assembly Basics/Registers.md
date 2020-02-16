@@ -28,6 +28,7 @@
 ### Flags
 [Reference Intel Manual for IA-32](https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf)
 
+<b>EIP</b>
 * EIP (Instruction pointer)
 * EIP (32-bits wide)
 * Contains the instruction pointer, or the next instruction to be executed
