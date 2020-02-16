@@ -1,4 +1,4 @@
-; Arithmatic.nasm
+; Arithmetic.nasm
 ; Author: Bill Burn
 ; Based on x86 Assembly from Pentester Academy
 
