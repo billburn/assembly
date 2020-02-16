@@ -25,6 +25,12 @@
 * push => pushes a value onto the stack
 * pop => removes the topmost value from the stack
     * note that the ESP register will auto-calcuate the register to always remain at the top of the stack
+* add => adds the destination e.g. (add eax, 0x1)
+* adc => add plus carry; this is used for adding when the number goes past two places
+* sub => subtracts the destination e.g. (sub eax, 0x1)
+* sbb => subtract with borrow; this is used for when we need to borrow a larger value then we have
+* inc => increment by 1
+* dec => decrement by 1
 
 ### Get length of variable
 * msglen equ $-variable-name
