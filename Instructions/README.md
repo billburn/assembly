@@ -65,6 +65,8 @@
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-01.png" /></kbd>
 
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-02.png" /></kbd>
+
 ### Get length of variable
 * msglen equ $-variable-name
 
