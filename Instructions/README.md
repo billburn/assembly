@@ -38,11 +38,11 @@
 [Logical Instructions](https://www.tutorialspoint.com/assembly_programming/assembly_logical_instructions.htm) | [x86 Instruction Set Reference](https://c9x.me/x86/)
 * and => r/m, r/m/imm (8,16,32 bits) => register, memory, immediate memory value
     * bitwise AND operations
-* or [OR instruction](https://c9x.me/x86/html/file_module_x86_id_219.html)
-* xor [XOR instruction](https://c9x.me/x86/html/file_module_x86_id_330.html)
-* not [NOT instruction](https://c9x.me/x86/html/file_module_x86_id_218.html)
+* or => [OR instruction](https://c9x.me/x86/html/file_module_x86_id_219.html)
+* xor => [XOR instruction](https://c9x.me/x86/html/file_module_x86_id_330.html)
+* not => [NOT instruction](https://c9x.me/x86/html/file_module_x86_id_218.html)
 
-[Bitwise Operations](https://en.wikipedia.org/wiki/Bitwise_operation)
+[Bitwise Operations Explained](https://en.wikipedia.org/wiki/Bitwise_operation)
 
 ### Get length of variable
 * msglen equ $-variable-name
