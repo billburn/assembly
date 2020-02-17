@@ -60,6 +60,10 @@
 
 #### Conditional JMPs
 * jxx => check the JMP instruction documentation for the full list: [JMP instruction](https://c9x.me/x86/html/file_module_x86_id_147.html)
+* [Tutorial's Point](https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm)
+* [Intel](https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf)
+
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-01.png" /></kbd>
 
 ### Get length of variable
 * msglen equ $-variable-name
