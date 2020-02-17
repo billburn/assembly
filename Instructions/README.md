@@ -44,6 +44,11 @@
 
 [Bitwise Operations Explained](https://en.wikipedia.org/wiki/Bitwise_operation)
 
+### Control Instructions
+<ol>
+<li> Controls the flow of the program </li>
+<li> Based on events </li>
+
 ### Get length of variable
 * msglen equ $-variable-name
 
