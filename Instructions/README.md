@@ -31,6 +31,16 @@
 * sbb => subtract with borrow; this is used for when we need to borrow a larger value then we have
 * inc => increment by 1
 * dec => decrement by 1
+* mul => multiplies (different rules for 16-bit and 32-bit registers)
+* div => divides (different rules for 16-bit and 32-bit registers)
+* and => r/m, r/m/imm (8,16,32 bits) => register, memory, immediate memory value
+    * bitwise AND operations
+* or 
+    * bitwise || / OR operation
+* xor
+* not
+
+[Bitwise Operations](https://en.wikipedia.org/wiki/Bitwise_operation)
 
 ### Get length of variable
 * msglen equ $-variable-name
