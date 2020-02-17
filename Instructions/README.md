@@ -33,12 +33,14 @@
 * dec => decrement by 1
 * mul => multiplies (different rules for 16-bit and 32-bit registers)
 * div => divides (different rules for 16-bit and 32-bit registers)
+
+### Logical Instructions
+[Logical Instructions](https://www.tutorialspoint.com/assembly_programming/assembly_logical_instructions.htm) | [x86 Instruction Set Reference](https://c9x.me/x86/)
 * and => r/m, r/m/imm (8,16,32 bits) => register, memory, immediate memory value
     * bitwise AND operations
-* or 
-    * bitwise || / OR operation
-* xor
-* not
+* or [OR instruction](https://c9x.me/x86/html/file_module_x86_id_219.html)
+* xor [XOR instruction](https://c9x.me/x86/html/file_module_x86_id_330.html)
+* not [NOT instruction](https://c9x.me/x86/html/file_module_x86_id_218.html)
 
 [Bitwise Operations](https://en.wikipedia.org/wiki/Bitwise_operation)
 
