@@ -41,7 +41,6 @@
 * not
 
 [Bitwise Operations](https://en.wikipedia.org/wiki/Bitwise_operation)
-<a href="https://en.wikipedia.org/wiki/Bitwise_operation" target="_blank">Bitwise Operations</a>
 
 ### Get length of variable
 * msglen equ $-variable-name
