@@ -52,6 +52,15 @@
 <li> Branching e.g. jmp's (conditional and unconditional) </li>
 </ol>
 
+#### Unconditional JMPs
+* jmp => [JMP instruction](https://c9x.me/x86/html/file_module_x86_id_147.html)
+* near jump => allows a jump into the current code segment
+*   near short jump => -128 to +127 bytes from your current EIP location
+* far jump allows jumping to another segment, with the same permission
+
+#### Conditional JMPs
+* jxx => check the JMP instruction documentation for the full list: [JMP instruction](https://c9x.me/x86/html/file_module_x86_id_147.html)
+
 ### Get length of variable
 * msglen equ $-variable-name
 
