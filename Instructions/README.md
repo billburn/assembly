@@ -47,7 +47,10 @@
 ### Control Instructions
 <ol>
 <li> Controls the flow of the program </li>
-<li> Based on events </li>
+<li> Based on events; possibly the sum equals zero or some other trigger </li>
+<li> Uses flags to determine our decision</li>
+<li> Branching e.g. jmp's (conditional and unconditional) </li>
+</ol>
 
 ### Get length of variable
 * msglen equ $-variable-name
