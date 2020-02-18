@@ -75,12 +75,15 @@
 * Can be called using => CALL `procedure name`
 * NASM calls procedures using labels
     * can be called via registers or stack
+* enter => Makes a stack frame for procedure parameters => [ENTER](https://c9x.me/x86/html/file_module_x86_id_78.html)
+* leave => Releases the stack frame set up by an earlier ENTER instruction => [LEAVE](https://c9x.me/x86/html/file_module_x86_id_154.html)
+* ret => Transfers program control to a return address located on the top of the stack => [RET](https://c9x.me/x86/html/file_module_x86_id_280.html)
 
 ### Saving and Restoring Stack States
-* pushad => PUSHes all general purpose registers onto the stack [PUSHAD](https://c9x.me/x86/html/file_module_x86_id_270.html)
-* popad => POPs all general purpose registers onto the stack [POPAD](https://c9x.me/x86/html/file_module_x86_id_249.html)
-* pushfd => Decrements the stack pointer by 4 (if the current operand-size attribute is 32) and pushes the entire contents of the EFLAGS register onto the stack [PUSHFD](https://c9x.me/x86/html/file_module_x86_id_271.html)
-* popfd => Pops a doubleword (POPFD) from the top of the stack (if the current operand-size attribute is 32) and stores the value in the EFLAGS register [POPFD](https://c9x.me/x86/html/file_module_x86_id_250.html)
+* pushad => PUSHes all general purpose registers onto the stack => [PUSHAD](https://c9x.me/x86/html/file_module_x86_id_270.html)
+* popad => POPs all general purpose registers onto the stack => [POPAD](https://c9x.me/x86/html/file_module_x86_id_249.html)
+* pushfd => Decrements the stack pointer by 4 (if the current operand-size attribute is 32) and pushes the entire contents of the EFLAGS register onto the stack => [PUSHFD](https://c9x.me/x86/html/file_module_x86_id_271.html)
+* popfd => Pops a doubleword (POPFD) from the top of the stack (if the current operand-size attribute is 32) and stores the value in the EFLAGS register => [POPFD](https://c9x.me/x86/html/file_module_x86_id_250.html)
 
 ### Get length of variable
 * msglen equ $-variable-name
