@@ -71,8 +71,8 @@
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-02.png" /></kbd>
 
 ### Procedures
-* allows for a set of operations to be combined or grouped together (think of a function in Python)
-* can be called using => CALL `procedure name`
+* Allows for a set of operations to be combined or grouped together (think of a function in Python)
+* Can be called using => CALL `procedure name`
 * NASM calls procedures using labels
     * can be called via registers or stack
 
