@@ -80,12 +80,12 @@
 * ret => Transfers program control to a return address located on the top of the stack => [RET](https://c9x.me/x86/html/file_module_x86_id_280.html)
 
 ### Shorthand for Storing Framepointer on the Stack
-`mov esp, ebp`
-`pop ebp`
+* `mov esp, ebp`
+* `pop ebp`
 
-* Can be shorthand written with just: 
-`leave`
-`ret`
+#### Can be shorthand written with just: 
+* `leave`
+* `ret`
 
 ### Saving and Restoring Stack States
 * pushad => PUSHes all general purpose registers onto the stack => [PUSHAD](https://c9x.me/x86/html/file_module_x86_id_270.html)
