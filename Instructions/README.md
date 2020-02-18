@@ -33,6 +33,9 @@
 * dec => decrement by 1
 * mul => multiplies (different rules for 16-bit and 32-bit registers)
 * div => divides (different rules for 16-bit and 32-bit registers)
+* loop => performs a loop operation using ECX as the counter [LOOP instruction](https://c9x.me/x86/html/file_module_x86_id_161.html)
+    * loope => [LOOP instruction](https://c9x.me/x86/html/file_module_x86_id_161.html)
+    * loopne => [LOOP instruction](https://c9x.me/x86/html/file_module_x86_id_161.html)
 
 ### Logical Instructions
 [Logical Instructions](https://www.tutorialspoint.com/assembly_programming/assembly_logical_instructions.htm) | [x86 Instruction Set Reference](https://c9x.me/x86/)
@@ -66,6 +69,18 @@
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-01.png" /></kbd>
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-02.png" /></kbd>
+
+### Procedures
+* allows for a set of operations to be combined or grouped together (think of a function in Python)
+* can be called using => CALL `procedure name`
+* NASM calls procedures using labels
+    * can be called via registers or stack
+
+### Saving and Restoring Stack States
+* pushad => PUSHes all general purpose registers onto the stack [PUSHAD](https://c9x.me/x86/html/file_module_x86_id_270.html)
+* popad => POPs all general purpose registers onto the stack [POPAD](https://c9x.me/x86/html/file_module_x86_id_249.html)
+* pushfd => Decrements the stack pointer by 4 (if the current operand-size attribute is 32) and pushes the entire contents of the EFLAGS register onto the stack [PUSHFD](https://c9x.me/x86/html/file_module_x86_id_271.html)
+* popfd => Pops a doubleword (POPFD) from the top of the stack (if the current operand-size attribute is 32) and stores the value in the EFLAGS register [POPFD](https://c9x.me/x86/html/file_module_x86_id_250.html)
 
 ### Get length of variable
 * msglen equ $-variable-name
