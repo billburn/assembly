@@ -79,11 +79,15 @@
 * leave => Releases the stack frame set up by an earlier ENTER instruction => [LEAVE](https://c9x.me/x86/html/file_module_x86_id_154.html)
 * ret => Transfers program control to a return address located on the top of the stack => [RET](https://c9x.me/x86/html/file_module_x86_id_280.html)
 
-### Shorthand for Storing Framepointer on the Stack
+### Prologue
+* `push ebp`
+* `mov ebp, esp`
+
+### Epilogue (Storing Framepointer on the Stack)
 * `mov esp, ebp`
 * `pop ebp`
 
-#### Can be shorthand written with just: 
+#### Epilogue shorthand can be written: 
 * `leave`
 * `ret`
 
