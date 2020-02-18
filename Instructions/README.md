@@ -83,13 +83,15 @@
 * `push ebp`
 * `mov ebp, esp`
 
-### Epilogue (Storing Framepointer on the Stack)
+### Epilogue
 * `mov esp, ebp`
 * `pop ebp`
 
 #### Epilogue shorthand can be written: 
 * `leave`
 * `ret`
+
+[Function Prologue](https://en.wikipedia.org/wiki/Function_prologue)
 
 ### Saving and Restoring Stack States
 * pushad => PUSHes all general purpose registers onto the stack => [PUSHAD](https://c9x.me/x86/html/file_module_x86_id_270.html)
