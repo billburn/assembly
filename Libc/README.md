@@ -5,4 +5,4 @@
     * Needs to be placed on the stack => `PUSH arg3, PUSH arg2, PUSH arg1`
 * Be sure to adjust the stack
 * Compile the source with GCC => `gcc source.nasm -o destin`
-* Libc programs expect a 'MAIN' function and not '_start'
+* Libc programs expect a `MAIN` function and not `_start`
