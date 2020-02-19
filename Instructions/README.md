@@ -70,6 +70,12 @@
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-02.png" /></kbd>
 
+### Strings
+* mov / movsw / movsd => [MOV instruction](https://c9x.me/x86/html/file_module_x86_id_176.html)
+* cmps => compare string instruction => [CMPS instruction](https://c9x.me/x86/html/file_module_x86_id_38.html)
+* scas => scan string instruction => [SCAS instruction](https://c9x.me/x86/html/file_module_x86_id_287.html)
+* lods => loads string instuction => [LOAD instruction](https://c9x.me/x86/html/file_module_x86_id_160.html)
+
 ### Procedures
 * Allows for a set of operations to be combined or grouped together (think of a function in Python)
 * Can be called using => CALL `procedure name`
