@@ -1,7 +1,10 @@
 #include<stdio.h>
 #include<string.h>
 
-unsigned char code=[]
+//Compile with the following: gcc -fno-stack-protector -z execstack shellcode.c -o shellcode
+
+unsigned char code[] = \;
+//<ENTER SHELLCODE HERE>;
 
 main(){
     printf("Shellcode length: %d\n", strlen(code));
