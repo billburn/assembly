@@ -47,3 +47,6 @@
 ## XMM Registers
 * (128-bits wide)
 * XMM0 - XXM7 (8 total registers)
+
+## General Purpose Registers (Image)
+![General Purpose Registers](https://github.com/billburn/ctf/blob/master/Assembly/Registers/Images/general-purpose-01.png)
