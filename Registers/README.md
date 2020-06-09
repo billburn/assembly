@@ -11,10 +11,10 @@
 ## General Purpose Registers - used for
 * EAX - Accumulator Register, used for storing operands and result data
 * EBX - Base Register, points to data
-* ECX - Counter Register, used in loops
+* ECX - Counter Register, used in loop operations
 * EDX - Data Register, I/O pointer
-* ESI / EDI - Data Pointer for memory operatins
-* ESP - Stack Pointer
+* ESI / EDI - Data Pointer for memory operatins (Source Index / Data Index)
+* ESP - Stack Pointer (always points to the top of the stack)
 * EBP - Stack Data Pointer
 
 ## Segment Registers (depends on memory model)
@@ -32,6 +32,9 @@
 * EIP (Instruction pointer)
 * EIP (32-bits wide)
 * Contains the instruction pointer, or the next instruction to be executed
+
+## Control Registers
+* CR0 - CR4
 
 ## Floating Point Unit (FPU) Registers (x87)
 * (80-bits wide) 
