@@ -1,26 +1,26 @@
 # Assembly Basics
 
-### Endianness
+## Endianness
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Assembly%20Basics/Screen-Captures/endianess-01.png" /></kbd>
 
-### Stack
+## Stack
 * The stack is First-in-First-Out data structure
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Assembly%20Basics/Screen-Captures/stack-02.png" /></kbd>
 
 [1] https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm
 
-### File Descriptors
+## File Descriptors
 * fd 0 => stdin
 * fd 1 => stdout
 * fd 2 => stderr
 
-### Invoking System Calls
+## Invoking System Calls
 * Invoke System Call with 0x80
 * Full list located here: /usr/include/i386-linux-gnu/asm/unistd_32.h
 * Read the man page of a systemcall by name => man 2 write, man 2 read, man 2 open, etc.
 
-### Storing data in registers
+## Storing data in registers
 * EAX => System Call Number
 	* The return value will also be placed into EAX
 * EBX => 1st Argument
@@ -29,6 +29,6 @@
 * ESI => 4th Argument
 * EDI => 5th Argument
 
-### Using NASM and LD to compile and Link a program
+## Using NASM and LD to compile and Link a program
 * nasm -f elf32 -o HelloWorld.o HelloWorld.asm
 * ld -o HelloWorld HelloWorld.o
