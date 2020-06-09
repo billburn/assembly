@@ -1,4 +1,4 @@
-### Libc
+## Libc
 * All libc functions must be defined with the keyword `extern` at the top, in source
 * All libc arguments must be placed on the stack, <b>in reverse order</b>
     * e.g. `CALL my_function(arg1, arg2, arg3)`

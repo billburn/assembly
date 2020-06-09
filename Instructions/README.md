@@ -6,7 +6,7 @@
 [NASM Manual](https://nasm.us/doc/nasmdoc3.html)
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/Uninitialized-Data-01.png" /></kbd>
 
-### Instructions
+## Instructions
 * resb => reserve byte
 * resw => reserve word
 * resq => array of 10 reals
@@ -37,7 +37,7 @@
     * loope => [LOOP instruction](https://c9x.me/x86/html/file_module_x86_id_161.html)
     * loopne => [LOOP instruction](https://c9x.me/x86/html/file_module_x86_id_161.html)
 
-### Logical Instructions
+## Logical Instructions
 [Logical Instructions](https://www.tutorialspoint.com/assembly_programming/assembly_logical_instructions.htm) | [x86 Instruction Set Reference](https://c9x.me/x86/)
 * and => r/m, r/m/imm (8,16,32 bits) => register, memory, immediate memory value
     * bitwise AND operations
@@ -47,7 +47,7 @@
 
 [Bitwise Operations Explained](https://en.wikipedia.org/wiki/Bitwise_operation)
 
-### Control Instructions
+## Control Instructions
 <ol>
 <li> Controls the flow of the program </li>
 <li> Based on events; possibly the sum equals zero or some other trigger </li>
@@ -55,13 +55,13 @@
 <li> Branching e.g. jmp's (conditional and unconditional) </li>
 </ol>
 
-#### Unconditional JMPs
+## Unconditional JMPs
 * jmp => [JMP instruction](https://c9x.me/x86/html/file_module_x86_id_147.html)
 * near jump => allows a jump into the current code segment
 *   near short jump => -128 to +127 bytes from your current EIP location
 * far jump allows jumping to another segment, with the same permission
 
-#### Conditional JMPs
+## Conditional JMPs
 * jxx => check the JMP instruction documentation for the full list: [JMP instruction](https://c9x.me/x86/html/file_module_x86_id_147.html)
 * [Tutorial's Point](https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm)
 * [Intel](https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf)
@@ -70,13 +70,13 @@
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-02.png" /></kbd>
 
-### Strings
+## Strings
 * mov / movsw / movsd => [MOV instruction](https://c9x.me/x86/html/file_module_x86_id_176.html)
 * cmps => compare string instruction => [CMPS instruction](https://c9x.me/x86/html/file_module_x86_id_38.html)
 * scas => scan string instruction => [SCAS instruction](https://c9x.me/x86/html/file_module_x86_id_287.html)
 * lods => loads string instuction => [LOAD instruction](https://c9x.me/x86/html/file_module_x86_id_160.html)
 
-### Procedures
+## Procedures
 * Allows for a set of operations to be combined or grouped together (think of a function in Python)
 * Can be called using => CALL `procedure name`
 * NASM calls procedures using labels
@@ -85,27 +85,27 @@
 * leave => Releases the stack frame set up by an earlier ENTER instruction => [LEAVE](https://c9x.me/x86/html/file_module_x86_id_154.html)
 * ret => Transfers program control to a return address located on the top of the stack => [RET](https://c9x.me/x86/html/file_module_x86_id_280.html)
 
-### Prologue
+## Prologue
 * `push ebp`
 * `mov ebp, esp`
 
-### Epilogue
+## Epilogue
 * `mov esp, ebp`
 * `pop ebp`
 
-#### Epilogue shorthand can be written: 
+## Epilogue shorthand can be written: 
 * `leave`
 * `ret`
 
 [Function Prologue](https://en.wikipedia.org/wiki/Function_prologue)
 
-### Saving and Restoring Stack States
+## Saving and Restoring Stack States
 * pushad => PUSHes all general purpose registers onto the stack => [PUSHAD](https://c9x.me/x86/html/file_module_x86_id_270.html)
 * popad => POPs all general purpose registers onto the stack => [POPAD](https://c9x.me/x86/html/file_module_x86_id_249.html)
 * pushfd => Decrements the stack pointer by 4 (if the current operand-size attribute is 32) and pushes the entire contents of the EFLAGS register onto the stack => [PUSHFD](https://c9x.me/x86/html/file_module_x86_id_271.html)
 * popfd => Pops a doubleword (POPFD) from the top of the stack (if the current operand-size attribute is 32) and stores the value in the EFLAGS register => [POPFD](https://c9x.me/x86/html/file_module_x86_id_250.html)
 
-### Get length of variable
+## Get length of variable
 * msglen equ $-variable-name
 
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/message-len-01.png" /></kbd>

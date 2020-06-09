@@ -21,29 +21,29 @@
     * (gdb) disassemble
     * (gdb) info registers
 
-#### __Step 0__
+## __Step 0__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-00.png" /></kbd>
 
-#### __Step 1__
+## __Step 1__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-01.png" /></kbd>
 
-#### __Step 2__
+## __Step 2__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-02.png" /></kbd>
 
-#### __Step 3__
+## __Step 3__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-03.png" /></kbd>
 
-#### __Step 4__
+## __Step 4__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-04.png" /></kbd>
 
-#### __Step 5__
+## __Step 5__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-05.png" /></kbd>
 
-#### __Step 6__
+## __Step 6__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-06.png" /></kbd>
 
-#### __Step 7__
+## __Step 7__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-07.png" /></kbd>
 
-#### __Step 8__
+## __Step 8__
 <kbd><img src="https://github.com/billburn/assembly/blob/master/Inspecting%20Binaries%20with%20GDB/Screen-Captures/stepi-08.png" /></kbd>
