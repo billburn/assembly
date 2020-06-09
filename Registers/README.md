@@ -48,5 +48,10 @@
 * (128-bits wide)
 * XMM0 - XXM7 (8 total registers)
 
+## High Bytes and Low Bytes
+* You may access the first 16 bits of EAX by calling the $AX reference
+* You may also access the the lower bits as $AH and $AL
+* And so forth for the other general purpose registers
+
 ## General Purpose Registers (Image)
 ![General Purpose Registers](https://github.com/billburn/assembly/blob/master/Registers/Images/general-purpose-01.png)
