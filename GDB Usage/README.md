@@ -41,22 +41,22 @@
     * (GDB) end 
 
 ## Readelf Command
-<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/readelf-01.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Images/readelf-01.png" /></kbd>
 
 ## Disassemble Command
-<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/disassemble-01.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Images/disassemble-01.png" /></kbd>
 
 ## Info Registers Command
-<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/info-registers-01.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Images/info-registers-01.png" /></kbd>
 
 ## Info variables Command
-<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/info-variables-01.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Images/info-variables-01.png" /></kbd>
 
 ## Examine memory Command
-<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/examine-01.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Images/examine-01.png" /></kbd>
 
 ## Finding address offset and printing bytes
-<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/examine-02.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Images/examine-02.png" /></kbd>
 
 ## Creating User-Defined Hook
-<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Screen-Captures/define-hook-01.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/GDB%20Usage/Images/define-hook-01.png" /></kbd>

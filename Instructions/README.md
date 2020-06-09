@@ -4,7 +4,7 @@
     * Data is stored in the BSS segment
 
 [NASM Manual](https://nasm.us/doc/nasmdoc3.html)
-<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/Uninitialized-Data-01.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Images/Uninitialized-Data-01.png" /></kbd>
 
 ## Instructions
 * resb => reserve byte
@@ -66,9 +66,9 @@
 * [Tutorial's Point](https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm)
 * [Intel](https://software.intel.com/sites/default/files/managed/39/c5/325462-sdm-vol-1-2abcd-3abcd.pdf)
 
-<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-01.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Images/jmp-instructions-01.png" /></kbd>
 
-<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/jmp-instructions-02.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Images/jmp-instructions-02.png" /></kbd>
 
 ## Strings
 * mov / movsw / movsd => [MOV instruction](https://c9x.me/x86/html/file_module_x86_id_176.html)
@@ -108,4 +108,4 @@
 ## Get length of variable
 * msglen equ $-variable-name
 
-<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Screen-Captures/message-len-01.png" /></kbd>
+<kbd><img src="https://github.com/billburn/assembly/blob/master/Instructions/Images/message-len-01.png" /></kbd>
